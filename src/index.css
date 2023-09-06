@@ -120,3 +120,34 @@ body {
   cursor: pointer;
   border: none;
 }
+@media only screen and (max-width: 375px) {
+  body {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  .card {
+    box-shadow: none;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .resault {
+    padding: 20px;
+    width: 100vw;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .summary {
+    row-gap: 25px;
+  }
+  .rows {
+    row-gap: 25px;
+  }
+  .btn {
+    background: hsl(224, 30%, 27%);
+  }
+}
