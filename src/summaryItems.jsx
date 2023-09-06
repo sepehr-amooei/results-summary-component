@@ -15,9 +15,12 @@ class SummaryItems extends Component {
     return (
       <div className="rows">
         {items.map((item) => (
-          <div className="row" key={item.category}>
+          <div
+            className={`row ${item.category.toLowerCase()}`}
+            key={item.category}
+          >
             <Badge icon={item.icon} category={item.category} />
-            <p>
+            <p style={{ color: "black" }}>
               <b>{item.score}</b> / 100
             </p>
           </div>
