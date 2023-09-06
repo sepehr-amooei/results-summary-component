@@ -1,16 +1,8 @@
 import "./App.css";
-import SummarySection from "./summarySection";
-import ResaultSection from "./resaultSection";
+import Card from "./common/card";
 
 function App() {
-  return (
-    <div className="card">
-      <div className="card-container">
-        <ResaultSection />
-        <SummarySection />
-      </div>
-    </div>
-  );
+  return <Card />;
 }
 
 export default App;
