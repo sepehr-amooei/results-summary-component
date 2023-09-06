@@ -129,7 +129,6 @@ body {
     box-shadow: none;
   }
   .card-container {
-    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
